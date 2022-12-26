@@ -1,5 +1,4 @@
 #using from
-
 FROM ubuntu
 LABEL maintainer=aashi
 RUN apt update && apt install nginx -y
